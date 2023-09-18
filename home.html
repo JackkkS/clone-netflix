@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="icon" href="https://loodibee.com/wp-content/uploads/Netflix-N-Symbol-logo.png" type="image/icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>หน้าแรก - Netflix</title>
+</head>
+
+<body>
+    <header class="transparent">
+        <nav id="navbar">
+            <ul>
+                <li class="logo"><img src="https://loodibee.com/wp-content/uploads/Netflix-logo.png"></li>
+                <li><a href="">หน้าแรก</a></li>
+                <li><a href="">รายการทีวี</a></li>
+                <li><a href="">ภาพยนตร์</a></li>
+                <li><a href="">มาใหม่และกำลังฮิต</a></li>
+                <li><a href="">รายการของฉัน</a></li>
+                <li><a href="">เลือกดูตามภาษา</a></li>
+                <li class="search-button"><button><i class="fas fa-search"></i></button></li>
+                <li class="child-corner"><a href="">มุมเด็ก</a></li>
+                <li class="alert-button"><button><i class="far fa-bell"></i></button></li>
+                <li class="profile">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/366be133850498.56ba69ac36858.png">
+                    <button class="alert-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="profile-content">
+                        <a href="home.html"><img
+                                src="https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg">profile2</a>
+                        <a href="home.html"><img
+                                src="https://wallpapers.com/images/high/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.webp">profile3</a>
+                        <a href="home.html"><img
+                                src="https://wallpapers.com/images/high/netflix-profile-pictures-1000-x-1000-62wgyitks6f4l79m.webp">profile4</a>
+                        <a href="home.html"><img
+                                src="https://wallpapers.com/images/high/netflix-profile-pictures-1000-x-1000-2fg93funipvqfs9i.webp">profile5</a>
+                        <a href="index.html"><i class="fas fa-pen"
+                                style="color: #ffffff; font-size: 23px; margin-right: 10px;"></i>จัดการโปรไฟล์</a>
+                        <a href="#"><i class="fas fa-address-card"
+                                style="color: #ffffff; font-size: 23px; margin-right: 10px;"></i>ย้ายโปรไฟล์</a>
+                        <a href=""><i class="fas fa-user"
+                                style="color: #ffffff; font-size: 23px; margin-right: 10px;"></i>บัญชี</a>
+                        <a href="#"><i class="fas fa-question"
+                                style="color: #ffffff; font-size: 23px; margin-right: 10px;"></i>ศูนย์ช่วยเหลือ</a>
+                        <hr>
+                        <a style="text-align: center;" href="#">ออกจากระบบของ Netflix</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="first-content">
+        <div class="title-bg"></div>
+        <div class="billboard-title">
+            <img class="title-logo"
+                src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfvzTgHsyaWdqXrWaE2-dnSXUGZGlQyr0HjSuAKG2lZ8QuRiUOdjuFbBCBC-BiacsgBovMRdtuDJjeTb6Xw0Co8DTOWjSOje7Rqoe-MrIJTfv9EDRSlk-0q9pEdw4EU9CtkiGY1FRErmRlUYsr5Vj1Afg3g47FASh8IG2ojqRbEXVPgyE3CbAQ.webp?r=96c">
+        </div>
+        <div class="supplemental-message">
+            <svg viewBox="0 0 28 30" class="svg-icon svg-icon-top-10-badge">
+                <rect x="0" width="28" height="30" rx="3" fill="#e50914"></rect>
+                <path
+                    d="M16.8211527,22.1690594 C17.4133103,22.1690594 17.8777709,21.8857503 18.2145345,21.3197261 C18.5512982,20.7531079 18.719977,19.9572291 18.719977,18.9309018 C18.719977,17.9045745 18.5512982,17.1081018 18.2145345,16.5414836 C17.8777709,15.9754594 17.4133103,15.6921503 16.8211527,15.6921503 C16.2289952,15.6921503 15.7645345,15.9754594 15.427177,16.5414836 C15.0904133,17.1081018 14.9223285,17.9045745 14.9223285,18.9309018 C14.9223285,19.9572291 15.0904133,20.7531079 15.427177,21.3197261 C15.7645345,21.8857503 16.2289952,22.1690594 16.8211527,22.1690594 M16.8211527,24.0708533 C15.9872618,24.0708533 15.2579042,23.8605988 14.6324861,23.4406836 C14.0076618,23.0207685 13.5247891,22.4262352 13.1856497,21.6564897 C12.8465103,20.8867442 12.6766436,19.9786109 12.6766436,18.9309018 C12.6766436,17.8921018 12.8465103,16.9857503 13.1856497,16.2118473 C13.5247891,15.4379442 14.0076618,14.8410352 14.6324861,14.4205261 C15.2579042,14.0006109 15.9872618,13.7903564 16.8211527,13.7903564 C17.6544497,13.7903564 18.3844012,14.0006109 19.0098194,14.4205261 C19.6352376,14.8410352 20.1169224,15.4379442 20.4566558,16.2118473 C20.7952012,16.9857503 20.9656618,17.8921018 20.9656618,18.9309018 C20.9656618,19.9786109 20.7952012,20.8867442 20.4566558,21.6564897 C20.1169224,22.4262352 19.6352376,23.0207685 19.0098194,23.4406836 C18.3844012,23.8605988 17.6544497,24.0708533 16.8211527,24.0708533"
+                    fill="#FFFFFF"></path>
+                <polygon fill="#FFFFFF"
+                    points="8.86676 23.9094206 8.86676 16.6651418 6.88122061 17.1783055 6.88122061 14.9266812 11.0750267 13.8558085 11.0750267 23.9094206">
+                </polygon>
+                <path
+                    d="M20.0388194,9.42258545 L20.8085648,9.42258545 C21.1886861,9.42258545 21.4642739,9.34834303 21.6353285,9.19926424 C21.806383,9.05077939 21.8919103,8.83993091 21.8919103,8.56731273 C21.8919103,8.30122788 21.806383,8.09572485 21.6353285,7.94961576 C21.4642739,7.80410061 21.1886861,7.73104606 20.8085648,7.73104606 L20.0388194,7.73104606 L20.0388194,9.42258545 Z M18.2332436,12.8341733 L18.2332436,6.22006424 L21.0936558,6.22006424 C21.6323588,6.22006424 22.0974133,6.31806424 22.4906012,6.51465818 C22.8831952,6.71125212 23.1872921,6.98684 23.4028921,7.34142182 C23.6178982,7.69659758 23.7259952,8.10522788 23.7259952,8.56731273 C23.7259952,9.04246424 23.6178982,9.45762788 23.4028921,9.8122097 C23.1872921,10.1667915 22.8831952,10.4429733 22.4906012,10.6389733 C22.0974133,10.8355673 21.6323588,10.9335673 21.0936558,10.9335673 L20.0388194,10.9335673 L20.0388194,12.8341733 L18.2332436,12.8341733 Z"
+                    fill="#FFFFFF"></path>
+                <path
+                    d="M14.0706788,11.3992752 C14.3937818,11.3992752 14.6770909,11.322063 14.9212,11.1664509 C15.1653091,11.0114327 15.3553697,10.792863 15.4913818,10.5107418 C15.6279879,10.2286206 15.695697,9.90136 15.695697,9.52717818 C15.695697,9.1535903 15.6279879,8.82573576 15.4913818,8.54361455 C15.3553697,8.26149333 15.1653091,8.04351758 14.9212,7.88790545 C14.6770909,7.73288727 14.3937818,7.65508121 14.0706788,7.65508121 C13.7475758,7.65508121 13.4642667,7.73288727 13.2201576,7.88790545 C12.9760485,8.04351758 12.7859879,8.26149333 12.6499758,8.54361455 C12.5139636,8.82573576 12.4456606,9.1535903 12.4456606,9.52717818 C12.4456606,9.90136 12.5139636,10.2286206 12.6499758,10.5107418 C12.7859879,10.792863 12.9760485,11.0114327 13.2201576,11.1664509 C13.4642667,11.322063 13.7475758,11.3992752 14.0706788,11.3992752 M14.0706788,12.9957842 C13.5634545,12.9957842 13.0995879,12.9090691 12.6784848,12.7344509 C12.2573818,12.5604267 11.8915152,12.3163176 11.5808848,12.0027176 C11.2708485,11.6891176 11.0314909,11.322063 10.8634061,10.9003661 C10.6953212,10.479263 10.6115758,10.0213358 10.6115758,9.52717818 C10.6115758,9.03302061 10.6953212,8.57568727 10.8634061,8.1539903 C11.0314909,7.73288727 11.2708485,7.36523879 11.5808848,7.05163879 C11.8915152,6.73803879 12.2573818,6.49452364 12.6784848,6.31990545 C13.0995879,6.14588121 13.5634545,6.05857212 14.0706788,6.05857212 C14.577903,6.05857212 15.0417697,6.14588121 15.4628727,6.31990545 C15.8839758,6.49452364 16.2498424,6.73803879 16.5604727,7.05163879 C16.871103,7.36523879 17.1098667,7.73288727 17.2779515,8.1539903 C17.4460364,8.57568727 17.5297818,9.03302061 17.5297818,9.52717818 C17.5297818,10.0213358 17.4460364,10.479263 17.2779515,10.9003661 C17.1098667,11.322063 16.871103,11.6891176 16.5604727,12.0027176 C16.2498424,12.3163176 15.8839758,12.5604267 15.4628727,12.7344509 C15.0417697,12.9090691 14.577903,12.9957842 14.0706788,12.9957842"
+                    fill="#FFFFFF"></path>
+                <polygon fill="#FFFFFF"
+                    points="8.4639503 12.8342327 6.65837455 13.2666206 6.65837455 7.77862061 4.65323515 7.77862061 4.65323515 6.22012364 10.4690897 6.22012364 10.4690897 7.77862061 8.4639503 7.77862061">
+                </polygon>
+            </svg>
+            <h2><strong>รายการทีวีอันดับ 1 วันนี้</strong></h2>
+        </div>
+        <div class="ptrack-content">
+            <p>ก่อนจะกวาดล้างมวลมนุษย์ให้หมดสิ้น เหล่าทวยเทพได้ให้โอกาสมนุษยชาติเป็นครั้งสุดท้าย
+                เพื่อพิสูจน์ว่าตัวเองควรค่าแก่การมีชีวิตอยู่ต่อไป มหาศึกคนชนเทพจึงเริ่มขึ้น!</p>
+        </div>
+        <div class="button-play">
+            <button class="btn"><i class="fas fa-play" style="color: #000000;"></i> เล่น</button>
+        </div>
+        <div class="button-info">
+            <button class="btn"><i class="fas fa-info-circle" style="color: #ffffff; font-size: 23px;"></i>
+                ข้อมูลเพิ่มเติม</button>
+        </div>
+        <div class="content-1">
+            <h3>เปิดตัวปีที่แล้ว</h3>
+            <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXiIK-vSNUAfaLfKGY9-_c9bai-3gSEAQPss8EDVlEgMXJ-iLfMh-xaIXYCLltxbzS7He73VCunKotT_c2nZhTgbS_Nz4tr9Wxw_TXUScPa6Abq5dkSzqhgpwHKFEmhfAbJb7gYFZx2tK1yZFgAPMQOxa_ZW76AWfEz-xjCJ8N36ozqRD-7qodF_A_vFcwLGkUGEN6yJx87yzJiCgr02suHf9hIpgiTYm3XBjFepAudYOKlHAZSIZI71GDcdHh-jz4r2H00zKlB0yLRAIwQz3Pe_pl9nF6ZiNkxOAQ4j1eQTyYPoh4WGov8fJjcEfJUL51EQ0npbwfEP9_O9Z3TarONlU2eF97d1fKYfEcRLFRIbXaLTi38E6p4IAvpf.jpg?r=603"
+                            alt="">
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABff4ZXmlc5lUMpcheGnXNcvUuvB5I_Xcva2UWI8ANk529LUCslj5fVpgIGG2lQhW7ORyk2eJINfb2GvjGSVMvz7iRXzFHHNci-jx6T5As4SRwOYo6Jl2R-NAL35O0KtEiXiW1ealeDy0WiLSEG2s7AB0TGXf5OpyoGW0RVj-TLoom3TwnwKABeKi0kzY1JhXoOW_Mkk-scgWwjAOdmg---isAjVrj6AL-_mqnwpv8IpXbQTzIeUB8lv8TyNB2NoLAsAVr7csrv3b0kuKZGiiHzC9NZC83tuhrM3pK6C4M6xIVocMb-TwZlyD6EhBFfJ2f5dJbvycJq1pKC9-4Q18qtQSzOqFkbm9pXEXFyB0Ey9UsC70VXoqWPjp6BlGd319rMw5jM-jLWwcOBbxWc7ypku4BnuR-8x--Bdw8zfTCfKROaYEtmkK7J1wTpZZUUwDgyk0KnFkKMey4rIcZN3K_LFqOF-GhGmAJE7sjhEZjwkNarDKRi8Gwkf94PQHs23m8IjQDtDENYr3nd1hkNaoLwUUWP-OYnsog62z0i0yyta1Bq5BTA.jpg?r=0bf"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQEzhq5cUc__liH7IhUB2vavR53RRyRQKe5CVAOZLY_w4hqAwwyBuPv3HSq2p2-zYqT7o-j02puf6og40sEB3tf77rBBJVw8JGNxGifSUiOBVwloAXwtouyJeL9FJq3lm3Hou7Wo6NZ6ZYZFh58pwxq_r0HFlZhYfvADofinE2JDlJUY6dkeDxuE0mHfW3OsJQ5PtkCnG7TJT_UxC2TQO62VXmfTalUR8NjqBoEHNojjZENRZ2rWBFWbJ1xW5Qi_cipQPdENgOHeIzhi5xRnggbneuQ_IUUi56Pzpg9LmUmpBkaNROaZZ9hnB4pcvggnL6Ow15dDlK8s9iTeCCQdaSgKS5k_OP2Ex1t1rnXSHXrk.webp?r=9fb"
+                            alt="">
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABevuSdjb1skIjQd3viePaBpTM6V_rxgjOwIToY7CskK_G8SEw6aRRS3eAPtE497uU1weQhRB3iObW0lJqeHEC2cxSpLZuyeI8yEEG1t8-_autPOsUnNfWUPjfee-b7stvEpz0JmHyKER5GD1bJh8n37Wg2FTq3UN5SlOir9pP5SEG8P-HvwO1C8VcAWg2uM.jpg?r=7f6"
+                            alt="">
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUE1BriTK6sJgNxHcqCEvoZUnfFmlrV8dEY0eZL37VGQrguInQyOynqK8s7nGUbGbKQVAdbFYtwPbw-I8G72heNpua1auroBeYT6Fask_F4dVqmmwYILc6nmVkIeb6vjWkNmV7ALGggQXo7WYYwp2l1rWt8XzDv16zBeRUm35Pxl0BJgFRt7sTs2UeI7SDb35-y_QyskvQERQfEd0XLo3AthG9MxeME3j0Fx5eeDyg1lQqcllR2ehS40y6MUS-92Nv7zbazvbMLbH-02ZsaGyhihLh7u2JVYYMCTzsnZ-2SmgHY9MIJ8c-tjx65Ufw1VrJ1iHKj0MBBsN8OhGJfB50Hp67qn0NK_XVzRL4VOnQUmfkl4gusYbB-UO3OvP60l8JI2Wm04cOqcKAuKhwOiNOPpb3jQ6h5Vh-YE_F176pZr-a-EWT_TYDVJzaCDS8jCAHOeqVshLM-WRPzRfSWjcIeTx9ypOtKQGoMa9GSd3tsGquCeRO3vOAD5Bzy_SYxG9QZklN2GeoWVI72QCXuvB8MpXCZD2bQL0_d7EjGWAFzAo4QK9Q.jpg?r=bea"
+                            alt="">
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWmAR8Rks9FtfDD0YINCe8c0dQiMUxKqW8VMKiSDYCsI7NwXVNtbAfbXA52EytaCBiMr22R6H9zo3C_u-oNo3J9lKpVfJJJISo3W_GX5gCTnmFuh-iwyref3PnCJmz287-IJ0LTlk83U1E9ZjHPL4QAlxmrmN8cWcBOEoVifOD17CgJkA4m7yCAePC4pHA-qHWqZu77efcz6hdc96pq2ndxgaPhedRG2ihV_V1NAoK-e67apT6GecwFM1V7xxsPCul6W8W7IoVk-YHlASzIy4CgBDE3kJf0IABGPCoKNs55Jq_XgWf6t2oanMJNaCffjT53bmkduI2a9svqLjBUgPkX-z3yM09jyBAp94MAB4HEgGsEgzHKsZQLfRwOBt4MJ-k-ll9aDZwATnoebFwP-lZsh43PtoZRFLJwk67kTqpj7vYXUy_bk8OjoNYycylclRfttT_zr39I_aSE9jDe_HLV_iH7fu2VIV3qjC7_rxT18azxRnB_lMu82hLRs-jgkA_JGLskaszL41CPpc0HDJA.webp?r=57e"
+                            alt="">
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeM4O-EL643zHI3y5oppc2wHKDYLjvyKInwohe7Dg0UIi8u89h3tA1PLfuEQUnmNU5_dwrv1DAlFrpbpnB206gLdmoOBCdedMPfuxAaperYAtkRSKdFF8iLdVjCgYWCsEgSlAcxuDXOEGQn-OwkUUlYBB0CdBtuIev0hpN7TArxURVGuxIhSe0mPrNRcEwJWNgaNid002I-MLVgJ8jQ7B4bmsUnXZHgPk78bX6Ng9GjuVV064FXa9Niq7-GbTBi6wEqRQbuZLArt9OQ9GTWCzgkRFTuEUCtUZ4iuEh2Ws6lKQE9AN5QwMoGZ8tu2BP97-TiYY5Xp6ivlkrLeqDAFwocjBaN4S2AH0vVnP9_RQfYUgTWyVsrBMM3sE90VPov682B0uwRQMi1dQn7Q45zYz5dqh30nw8vrI97_BEC_M8i_AhWLg5fUUGZ19csrmDODA32UDro1oVxnhfFEqEXd3guzJNc.webp?r=19a"
+                            alt="">
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABe0geG73Tv4mdockk5OuHYnCGKOxAmBqAI0bHplkuTe0AlXkaMDhLCG_9zyLsJ6fLx8j7UHO0yKIbnFC8tX3ngwdE3ZsruRWVRm2kyoHLZCM1wyBOAS_OaEaVt2GwEVYg129m8TbGo2yQs3iR8nVwmp7yOj8CG8PWNSzQucI2bkNa1sGeSYecQC9KD_2vPkVC7lnuvoj01YQPQqJIBP_wIeeJPR1ANt_RTvn0i_ThUWtZuRdpUZluX_FJBXW0L6RjCPpytEToDlM4Uqg2-dh3Z8BbMrZqphYZFOcavQzSf7WgpFOzw.webp?r=b54"
+                            alt="">
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQrYYoq_0QmpqIujP20lz5Ca9QmJoKY91vvO7_E82sWlkR0w9vWHiGG59dZV8HQTREATwtq32TRo4Kk0hLdL8al5T-8nOBk6bMlalRqzdGxWYrRjaZJZnK6q4BQ9RHI4fa3X.jpg?r=f2b"
+                            alt="">
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZHxaEa0fUwyOnj4GkwNrGMgk7c91jCObcUS21mfnmqWCF-VW2qbYNOYahOC6ssHQCdgL3GJlpJMkmJl4sBONsgf9M5JsSNogjMLlFd2EDULUX_ffNXoCLfGyb3Zm29IjGH9dJqi1Ah7wxqeQOoyli_U9ViCBpVyDGADWg4tIbTtfkiO46hYBJB83xVNM-fU66nxlgzokyHxJ9cz0L6io7lxJXxLh0Kmn75yo2LHb8y3fWuwpoAqKdm2JsQYYZGsC7LuaHnvyUKvaXtrUmOsQkxUbJUEvRFXVfQRW6BLdbSfLoJJpOeHqMQYTmxBkb2AmN1aRdT31pxpufAHPymoOnf0wTWxSXajTpOIxEHkqVRvndhisRL6PLFqqld0r8x7jnKWo6YDZJ2JHvIGJn71tC4uWxaWvUYduCR37S5ik-PEGmk-wE3zoWsCT1tRKHx4GPysz66_0pX6XNLGDsmzunOLTe2aVjkZKCVeHlLmHDcVHxJfqNGg4Nm2eticsbdMeXeWWOuKdcPW8pOZuhvtQg.webp?r=987"
+                            alt="">
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="movie-slide">
+                        <img class="boxart-image boxart-image-in-padded-container"
+                            src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABajShzj_4UDcy9pFg7uhLJ2RG48HkHhRrMFvTf5W0vj9t7puu8OT0orKfkZoguIGHs9ozup1ZBzaffP2T-UEbkh7BPE5MX8GXz3hkxp1B-cYshDyZYlzseBfgCIybLb0xPJeCDZ-WL15VaWvNk8WfIn2-h-kFTTQ3NXwMwzK04CpaLoVzg7rRLPQr8Mr07Y.jpg?r=ec8"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-2">
+        <h3>กำลังฮิต</h3>
+        <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXnPrN4V9T4obtwGmqrnlwx-mJ65ZdzZ_RCVxSEpnASR8zfhH99xF_mLyiS7zu81gPIKgg1vSwbpfpslTLtobrDle2vfKfl4FvGXWAErY-hqbOdHUER0YsaGIGlR2pIfZ2IZZXbaal2nfGcaWXB1Q4LopXVwa_p5HDqGoLS8ixm1AbV0lYQLlVxdz51hkAKaI7TJmCgXOFgyYvNCuStjlDBQE5qQ_nY3d8TOP0BNhtCbrVd0cY6Cp_bqDXJTPBNy5cePqg_SDbnSpqoRUXXuPwCS6SgG8mvj_kAos8bPHBJ0Sxmc8QrFMmv49SbwCRPmTZw3tRjAWaxHWo-fP628FcHWJCbKx_YAdNXKrweCfX8Roe4DPQs3vgjINccd31AlbDKor9_6eS01gGSkyqdPczTRjzzORL2WS1ll5t9ma_10LLj8xv92U-zOTBP9cETPRp6XIPY2TpLZrqFC5Gvi_07Pnh8.webp?r=ae0"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABajShzj_4UDcy9pFg7uhLJ2RG48HkHhRrMFvTf5W0vj9t7puu8OT0orKfkZoguIGHs9ozup1ZBzaffP2T-UEbkh7BPE5MX8GXz3hkxp1B-cYshDyZYlzseBfgCIybLb0xPJeCDZ-WL15VaWvNk8WfIn2-h-kFTTQ3NXwMwzK04CpaLoVzg7rRLPQr8Mr07Y.jpg?r=ec8"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXXubGROYTh98QeWLdKpSskoAeV3LzIgl4d03NlnOSKbEe52EYYoblGqZBRg9IE5m5tI5Ok9E0VBTD1YnkFDpXY_9apJASKLljctxLxwIgYzEA8cJKvXejFJ5ZOOFK9eaapz23yRS0vXct_GHQa57q8puUSk5CTXDP9m-kidj3z37126YUwa99QJGn-txndj3bkjyuFjBrWmvKzI2aBx7iwcdKelLn2oefXCH22A0qY75PdginvE245Umxgkk8bclkjiWAHXt9f6HjfVP3E9rHxm3Qsuv54sawYxO22UT6sMp70WjpSfauQdieeHsjH5ZqWD5QJhIpBgt0FZbGxcXBrnUmkuBZLdhciF3RnP_oZX7tzN0P_OmqORsf71i7Uxi6pCiTl6O4cX6TDHbQ5YtkOdolPrTdroGKHinaKeKy6rbK4QD-s69U9Qgfx-zm28KWh4JZpFUUYO3YdQ6Ga_nf06G2w.webp?r=e1b"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeM4O-EL643zHI3y5oppc2wHKDYLjvyKInwohe7Dg0UIi8u89h3tA1PLfuEQUnmNU5_dwrv1DAlFrpbpnB206gLdmoOBCdedMPfuxAaperYAtkRSKdFF8iLdVjCgYWCsEgSlAcxuDXOEGQn-OwkUUlYBB0CdBtuIev0hpN7TArxURVGuxIhSe0mPrNRcEwJWNgaNid002I-MLVgJ8jQ7B4bmsUnXZHgPk78bX6Ng9GjuVV064FXa9Niq7-GbTBi6wEqRQbuZLArt9OQ9GTWCzgkRFTuEUCtUZ4iuEh2Ws6lKQE9AN5QwMoGZ8tu2BP97-TiYY5Xp6ivlkrLeqDAFwocjBaN4S2AH0vVnP9_RQfYUgTWyVsrBMM3sE90VPov682B0uwRQMi1dQn7Q45zYz5dqh30nw8vrI97_BEC_M8i_AhWLg5fUUGZ19csrmDODA32UDro1oVxnhfFEqEXd3guzJNc.webp?r=19a"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZHxaEa0fUwyOnj4GkwNrGMgk7c91jCObcUS21mfnmqWCF-VW2qbYNOYahOC6ssHQCdgL3GJlpJMkmJl4sBONsgf9M5JsSNogjMLlFd2EDULUX_ffNXoCLfGyb3Zm29IjGH9dJqi1Ah7wxqeQOoyli_U9ViCBpVyDGADWg4tIbTtfkiO46hYBJB83xVNM-fU66nxlgzokyHxJ9cz0L6io7lxJXxLh0Kmn75yo2LHb8y3fWuwpoAqKdm2JsQYYZGsC7LuaHnvyUKvaXtrUmOsQkxUbJUEvRFXVfQRW6BLdbSfLoJJpOeHqMQYTmxBkb2AmN1aRdT31pxpufAHPymoOnf0wTWxSXajTpOIxEHkqVRvndhisRL6PLFqqld0r8x7jnKWo6YDZJ2JHvIGJn71tC4uWxaWvUYduCR37S5ik-PEGmk-wE3zoWsCT1tRKHx4GPysz66_0pX6XNLGDsmzunOLTe2aVjkZKCVeHlLmHDcVHxJfqNGg4Nm2eticsbdMeXeWWOuKdcPW8pOZuhvtQg.webp?r=987"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABezvQ6vXaJlktvApozf2bfgP5D5Bl5eO7jGnTciOi7_aPwNCiXe4Made4hfX2oedyY1YVVSZAOBgSHN0jex3YTVQSe2w4ulxtGzxZGBUbWdIn0aw0JzubU8xFgT0Ge9d_pakU-ENiq_jtpEJX0GBrf4Qy1oacSYaCY7nCNpG_qh3GoPBkSL1PQQ4NXDCtY8.jpg?r=075"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABe0geG73Tv4mdockk5OuHYnCGKOxAmBqAI0bHplkuTe0AlXkaMDhLCG_9zyLsJ6fLx8j7UHO0yKIbnFC8tX3ngwdE3ZsruRWVRm2kyoHLZCM1wyBOAS_OaEaVt2GwEVYg129m8TbGo2yQs3iR8nVwmp7yOj8CG8PWNSzQucI2bkNa1sGeSYecQC9KD_2vPkVC7lnuvoj01YQPQqJIBP_wIeeJPR1ANt_RTvn0i_ThUWtZuRdpUZluX_FJBXW0L6RjCPpytEToDlM4Uqg2-dh3Z8BbMrZqphYZFOcavQzSf7WgpFOzw.webp?r=b54"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQrYYoq_0QmpqIujP20lz5Ca9QmJoKY91vvO7_E82sWlkR0w9vWHiGG59dZV8HQTREATwtq32TRo4Kk0hLdL8al5T-8nOBk6bMlalRqzdGxWYrRjaZJZnK6q4BQ9RHI4fa3X.jpg?r=f2b"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdeycHNiON9zF-a9CygBy8BHgTaPelwKe-C_EcXR8H-O0JQU6tXLXAhSbs__zy3lgs7xCeDQm2gfQng7bp358imlgjcUaWsCo_pKsn9ht8lzfkI4tiQj8uocJDRbqyD3pSGPYW0MyUFay9E1fXyeRetPJpwIZODEOqLyQZlF0kB1yraqP852HJwwrbSijz_-jHdsFNcOAPoE_5Hs4gu0mrltpOkKyku5UxtQOE4Mqs9KyC2HyPBx2xlPcDmUkR110o4kqe4RBbsuvcI3AdSDOxYxtT3I94sFqtVobNHCWsi9cgxz1A.webp?r=7cb"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaNabtLQ3LlXY1Z_AaRBJ58XqIIL97jIq76z0079XeUU7xt8N1Px1DIuKqGiVsZoxY862xAd_Jo8z6GBcWEGUYII_-Bvb-QxiPxaHDlEQAaQriGmrfrnkgW9-0eY0CH-HGywb03d8gXZMxbS1ulBeoSwoDUIDiNIGcSB6COac50wDstMFuohOE5Xh9BIgE4.jpg?r=ab1"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXeAl2S8eZizr1zKTH9nFjIhZm8KgvZQfEpeJMUy0BBsSRbpPNop2x2I1L1-vfJHdRJBFSoA4b08J-lpAWpbBIkAJ8ddn7u1ywxrLY0gY34aAD3D0qH5eqQSFk6e-uKWZeLBF7Pj7MTTU-KqbA4JFlss2RJIoNO4cUONAnN4PBMAhkvyKSDN1De53x4WQ-iVO1_wAD1wO_UyJKbtfgAezp2RECfDQDLdqTmhd4B2VMKxefUIqBMV0t6gxUrVylKj6Xx2-BwA-WF1lJacGCZ2BAEGiIDFWrGBTcY07tRT_YdwxXRcAA.webp?r=0f0"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQEzhq5cUc__liH7IhUB2vavR53RRyRQKe5CVAOZLY_w4hqAwwyBuPv3HSq2p2-zYqT7o-j02puf6og40sEB3tf77rBBJVw8JGNxGifSUiOBVwloAXwtouyJeL9FJq3lm3Hou7Wo6NZ6ZYZFh58pwxq_r0HFlZhYfvADofinE2JDlJUY6dkeDxuE0mHfW3OsJQ5PtkCnG7TJT_UxC2TQO62VXmfTalUR8NjqBoEHNojjZENRZ2rWBFWbJ1xW5Qi_cipQPdENgOHeIzhi5xRnggbneuQ_IUUi56Pzpg9LmUmpBkaNROaZZ9hnB4pcvggnL6Ow15dDlK8s9iTeCCQdaSgKS5k_OP2Ex1t1rnXSHXrk.webp?r=9fb"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcbMKhfYDc3I2XnlAi4ciTVYy8hjb-8BIqQHmn0goSzf7rl4Z1Ej6vrloqkYYBpDWUo4BAyu2PTeMnktp5i23pR20KwX0bveSUI.webp?r=dfc"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbrqTJDrpbrPQsQ523YKJgLbIVpb0X4tlZZW3eP8dWWUdjV9oz1k5lm9lCByl_wXk7m7sMKoOGI7T1Z1DEmGQolXBoDydLfOPbs.webp?r=d27"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-3">
+        <h3>เนื้อหาเปิดตัวใหม่</h3>
+        <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXiIK-vSNUAfaLfKGY9-_c9bai-3gSEAQPss8EDVlEgMXJ-iLfMh-xaIXYCLltxbzS7He73VCunKotT_c2nZhTgbS_Nz4tr9Wxw_TXUScPa6Abq5dkSzqhgpwHKFEmhfAbJb7gYFZx2tK1yZFgAPMQOxa_ZW76AWfEz-xjCJ8N36ozqRD-7qodF_A_vFcwLGkUGEN6yJx87yzJiCgr02suHf9hIpgiTYm3XBjFepAudYOKlHAZSIZI71GDcdHh-jz4r2H00zKlB0yLRAIwQz3Pe_pl9nF6ZiNkxOAQ4j1eQTyYPoh4WGov8fJjcEfJUL51EQ0npbwfEP9_O9Z3TarONlU2eF97d1fKYfEcRLFRIbXaLTi38E6p4IAvpf.jpg?r=603"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeM4O-EL643zHI3y5oppc2wHKDYLjvyKInwohe7Dg0UIi8u89h3tA1PLfuEQUnmNU5_dwrv1DAlFrpbpnB206gLdmoOBCdedMPfuxAaperYAtkRSKdFF8iLdVjCgYWCsEgSlAcxuDXOEGQn-OwkUUlYBB0CdBtuIev0hpN7TArxURVGuxIhSe0mPrNRcEwJWNgaNid002I-MLVgJ8jQ7B4bmsUnXZHgPk78bX6Ng9GjuVV064FXa9Niq7-GbTBi6wEqRQbuZLArt9OQ9GTWCzgkRFTuEUCtUZ4iuEh2Ws6lKQE9AN5QwMoGZ8tu2BP97-TiYY5Xp6ivlkrLeqDAFwocjBaN4S2AH0vVnP9_RQfYUgTWyVsrBMM3sE90VPov682B0uwRQMi1dQn7Q45zYz5dqh30nw8vrI97_BEC_M8i_AhWLg5fUUGZ19csrmDODA32UDro1oVxnhfFEqEXd3guzJNc.webp?r=19a"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZHxaEa0fUwyOnj4GkwNrGMgk7c91jCObcUS21mfnmqWCF-VW2qbYNOYahOC6ssHQCdgL3GJlpJMkmJl4sBONsgf9M5JsSNogjMLlFd2EDULUX_ffNXoCLfGyb3Zm29IjGH9dJqi1Ah7wxqeQOoyli_U9ViCBpVyDGADWg4tIbTtfkiO46hYBJB83xVNM-fU66nxlgzokyHxJ9cz0L6io7lxJXxLh0Kmn75yo2LHb8y3fWuwpoAqKdm2JsQYYZGsC7LuaHnvyUKvaXtrUmOsQkxUbJUEvRFXVfQRW6BLdbSfLoJJpOeHqMQYTmxBkb2AmN1aRdT31pxpufAHPymoOnf0wTWxSXajTpOIxEHkqVRvndhisRL6PLFqqld0r8x7jnKWo6YDZJ2JHvIGJn71tC4uWxaWvUYduCR37S5ik-PEGmk-wE3zoWsCT1tRKHx4GPysz66_0pX6XNLGDsmzunOLTe2aVjkZKCVeHlLmHDcVHxJfqNGg4Nm2eticsbdMeXeWWOuKdcPW8pOZuhvtQg.webp?r=987"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdeycHNiON9zF-a9CygBy8BHgTaPelwKe-C_EcXR8H-O0JQU6tXLXAhSbs__zy3lgs7xCeDQm2gfQng7bp358imlgjcUaWsCo_pKsn9ht8lzfkI4tiQj8uocJDRbqyD3pSGPYW0MyUFay9E1fXyeRetPJpwIZODEOqLyQZlF0kB1yraqP852HJwwrbSijz_-jHdsFNcOAPoE_5Hs4gu0mrltpOkKyku5UxtQOE4Mqs9KyC2HyPBx2xlPcDmUkR110o4kqe4RBbsuvcI3AdSDOxYxtT3I94sFqtVobNHCWsi9cgxz1A.webp?r=7cb"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcTZ7gQ2r8Qh98mrsVcwPmfI7Tc6qbaO8_VH5z0vYzMLVkdqKaNbNmwlTQ9Oz28aG4t7zndCahPq_4mT-fCoHePKIq9pvY9xohs.webp?r=b76"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYGImNzASWCpJc_bWmvjL3-C1HpeQK00rlofLpvak7uR_aJIDCIO-fsdFasy28NnyB7m8ReSymKMfeS2Sqn8SvUQoFpnOZXxTWw.webp?r=9d2"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXoVRyl-j6Z-2A3Qr__rERm5ssJpLi4Cv2EjUPQy7OaLM7XgkE6kxKXU1unco2NPa6-Zb15HLv2XIx5_5feJBUIYFr8B1OEGb7sjokgcUvVMM_LHmTKupf8tnYArix26K_7mRNhuJvgdqYdlamnU1lcBefbvQyi0l9c.webp?r=934"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVMNLMaiYG58ACNjRZURO5lZhiiMp0ASdoOenqnicIG5wFEpNy7hO8Ijwzcx1LxrG4Q15UqfpcRbNWHgNzzQB4mKcCBDb8T29Wg.webp?r=8f2"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZB68QN-mABnb9q_SgXlnIUWZ9U-TzViY0uxxTHyp0LnysjMyt0vsen2-ZDd9e8gNUcmAwRwJJHSwOtO66K_snMNF36tNDGO8WA.webp?r=88f"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWSU5jq_OeNN9G_65V8Z3Xit-dRqlCB01lCgWQ1paijlAMY49io62yCkRHwmJ0M3bfqanBUnORFSN62YxENQnISDdjagzttWcfs.webp?r=f1e"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfDncnGblXmOUsmTBNjQUwqyXkErjPWrzSk3ZLaBP2mic7EF42u5YVwzDgibSHEg6gj8yaAJCp4Q3umzrQ-pA31g5e3wW2JgjGg.webp?r=168"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABai7iBorVSObpJ1H4lb0CGGFS7LuJptmtKJpmykoYfb1cSRAWcVVWg2PpsFXb9OBxFxRnY-O6ptJ09cm67wcKWGcdDU0TF_cbmY.webp?r=dd2"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABd6rddHORPYOZdRtwulpJmoGvywlXv3pCkNPAnBL7frjqUcqaD_pXbAq4d49NphYyLq6nt3hFDdnhtargSKKREfpsXQo55wufKk.webp?r=3e7"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWE-C1pdx8GpETb7jJARaRr_wz8lO3prBHIAaGEsdpmEb46OlbE5C0mTX1XWM1cx_uitwIg_wQvji1bfzIri99dkFnTLprGS3JM.webp?r=e85"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-4">
+        <h3>ซีรีส์อนิเมะสัญชาติญี่ปุ่น</h3>
+        <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeP9J6GDc4MfyzRNLqZuartb16MjLlr0eux-hqJexvA2DfRVttWGBHixz_2O7W0P7l7MkTTG4TBPIlGyb1Eqmw3OXniTd6P68l8.webp?r=f9d"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABe0geG73Tv4mdockk5OuHYnCGKOxAmBqAI0bHplkuTe0AlXkaMDhLCG_9zyLsJ6fLx8j7UHO0yKIbnFC8tX3ngwdE3ZsruRWVRm2kyoHLZCM1wyBOAS_OaEaVt2GwEVYg129m8TbGo2yQs3iR8nVwmp7yOj8CG8PWNSzQucI2bkNa1sGeSYecQC9KD_2vPkVC7lnuvoj01YQPQqJIBP_wIeeJPR1ANt_RTvn0i_ThUWtZuRdpUZluX_FJBXW0L6RjCPpytEToDlM4Uqg2-dh3Z8BbMrZqphYZFOcavQzSf7WgpFOzw.webp?r=b54"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZRABgg4LnL_wZ0DCp4xqCH60HvAY-YdkaQGJmGwvnrR8fbkl0ZQnGrVfoJS13GG-qUBllCRBoo4NN6pxUTfvtkEK04xSiSTs2E.webp?r=4be"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdjtzyKIG9XaJvd4hVWac94gsNGYlpAe8_cCZitLVl7JVUjy6QKS_PqMR2QTkK2qLOco_jdEFoG7JJXtBpNCZX8uyitWaBVvAWk.webp?r=490"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfbN99ZOo4TMQVjnp-jsNB7KjbVbecXiVEkBylO_C-5xbDI8usO2iHYrpJcmZkrJhgztsWXqcMOkN4DEiGwtL88QUF9v0k1FUek.webp?r=95e"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXeAl2S8eZizr1zKTH9nFjIhZm8KgvZQfEpeJMUy0BBsSRbpPNop2x2I1L1-vfJHdRJBFSoA4b08J-lpAWpbBIkAJ8ddn7u1ywxrLY0gY34aAD3D0qH5eqQSFk6e-uKWZeLBF7Pj7MTTU-KqbA4JFlss2RJIoNO4cUONAnN4PBMAhkvyKSDN1De53x4WQ-iVO1_wAD1wO_UyJKbtfgAezp2RECfDQDLdqTmhd4B2VMKxefUIqBMV0t6gxUrVylKj6Xx2-BwA-WF1lJacGCZ2BAEGiIDFWrGBTcY07tRT_YdwxXRcAA.webp?r=0f0"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXSg7QtGR2Ubk_AMS3R8TYz6ZcJXn4SEOmsek4w-6rhlkUfhOBGjFS6ye8EWIUkQagRfiDatb4IZ-VmdzlWwb-D-kdG2LaAp38MqymFgGRHJwwKQxiuzVke5sOa-msTAYiQ4qWPKT-J5d4UiL4jvXbYFRzhQlRrccBtnr2yuVpip6-tqh1_Qa2APCOrVAURuYlx6AiT5zoJwrssBud267jlMVxF1_Ys_5YkK7JKz0s_NuSP5TfP0Gj_qzml76zkIvna2ib0-Ec3Xkh1hDWpewfihM0wPzWtQW8IFZ_hX9L6v_jVN1n5eGLzc3dKL3XoUiUn23wyymgtsOiBbg5srxQtyOGfwJuts4tjrKiAYeAyGkesoiUoL4eQSypT6ai-g9qptFso46t2bqRci_gR0ol354yKGiVMvPVAjc89gVnv-485dKbNlrKyxBPZIE6DFld6g4bV526QPQ19PWsUKnKbOcta0pTMAwTUHIC8koIpNMwIV49buT99rLlxcQubf_C5xt7jNZqWEAqE8W9Ulyl0WvIqc5Oq6itgurcIbhlQhwRvF7g.jpg?r=79d"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUEG5capucThHmBafinwMyon8kmr8fd4b81aEbpyY_DJg_rf4mYQb4m-VXyAJtL-dxAbKkJcmAaHkPOj9S0V8QmIOofOmOupIOg.webp?r=838"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXu4WqREGeTqR5_iFM-lSWZzmeDsU50cvl8WW-D0n2lxXEExvXpP4JqW3FcsfwGH4MAg8Gc9EMYlGnBoJw-5tzPaK8qEaHWqWEzPI4FpW6DmdO575k2AvTeYiVxW_nf5edRwCbz1zkaWee5qXPMxUjwbedQN5X8APwdUzfZCZN76xTwziz-j3qvNRSYoXn52eqspIUrKD_iM8fdhMciUxSNpYiIQPSsp3q2PeFNHdUzeXoOnSAAXTs2qwEQbKjdVlmuepORcRU7lSEfMXmYzJn5hAlxkcjvBQVL9e_Dku9fDcTmPCg.webp?r=e4c"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeDU0IDQj2hn1R3nKRKdAsRyqkYu7MjCJU1fgJqQQTdtlbP1wUnTLaM42mXLz-duPDLvmrUkriTMlYGfVR4EhnuTz264X5oSx4NsLzqvJHytUAKRlm4nK2jQnZYvU6MQ_FkL6m02Lep828RZq6GVDrIYj0lCu-hteSxozV8t6HkjrSwL7ecwOaVM7ijY6H6nWvFYVMNxTrwKClJik45E5yrJVJ9kK7Cuxa8VkH3_FNW4msoXNnTBz0EbnBxzjgoqx35iJZF_WMw1NErFdy8ZHY0JzaXIPkfR7vLc41EznrlLIHEyDA.webp?r=888"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbOSfFiKRhEq3U2Tp01eDpepkgIqDQS5EIplhl_WUFYmyCRh7bqQS6EWA2nJ8KW4QiC48o_Gzp71g1dPOEMQh7CvO8-xP0xg0lU.webp?r=888"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcTZ7gQ2r8Qh98mrsVcwPmfI7Tc6qbaO8_VH5z0vYzMLVkdqKaNbNmwlTQ9Oz28aG4t7zndCahPq_4mT-fCoHePKIq9pvY9xohs.webp?r=b76"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQ04SJvrhI3YVBvgfDTUn8DRQF0_wPtJBs960VpwrLoWNgWRrCuoQz51jNPOomHDUd0RshZEXRh19CcFzzg8mIfxjJcArMqLrA4.webp?r=ef5"
+                        alt="">
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="movie-slide">
+                    <img class="boxart-image boxart-image-in-padded-container"
+                        src="https://occ-0-2339-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABai7iBorVSObpJ1H4lb0CGGFS7LuJptmtKJpmykoYfb1cSRAWcVVWg2PpsFXb9OBxFxRnY-O6ptJ09cm67wcKWGcdDU0TF_cbmY.webp?r=dd2"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="social-links">
+            <a class="social-link" href="https://www.facebook.com/NetflixAsia" target="_blank"
+                aria-label="facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-facebook-logo ltr-0 e1mhci4z1"
+                    data-name="Facebook" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M13.987 13.1621V21.9841H10.042V13.1621H6.84198V9.51207H10.047V6.73207C10.047 3.56707 11.932 1.82007 14.815 1.82007C15.7618 1.83321 16.7063 1.91577 17.641 2.06707V5.17307H16.045C15.4954 5.10007 14.9424 5.28088 14.5421 5.66447C14.1417 6.04807 13.9375 6.59284 13.987 7.14507V9.51207H17.487L16.928 13.1621H13.987Z"
+                        fill="currentColor"></path>
+                </svg></a>
+            <a class="social-link" href="https://www.instagram.com/netflixasia/" target="_blank"
+                aria-label="instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-instagram-logo ltr-0 e1mhci4z1"
+                    data-name="Instagram" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M21.93 16.123C21.9584 17.6765 21.3789 19.1796 20.315 20.312C19.1851 21.3804 17.6797 21.9607 16.125 21.927C14.474 22.021 9.52499 22.021 7.87499 21.927C6.32126 21.9551 4.81792 21.3757 3.68499 20.312C2.61754 19.1819 2.03744 17.6772 2.06999 16.123C1.97699 14.472 1.97699 9.523 2.06999 7.873C2.03955 6.31886 2.61933 4.81466 3.68499 3.683C4.81767 2.61952 6.32162 2.04163 7.87499 2.073C9.52599 1.979 14.475 1.979 16.125 2.073C17.6789 2.04394 19.1826 2.62353 20.315 3.688C21.3825 4.81813 21.9625 6.32278 21.93 7.877C22.023 9.528 22.023 14.472 21.93 16.123ZM20.2 12C20.2 10.545 20.32 7.422 19.8 6.106C19.4572 5.23679 18.7692 4.54875 17.9 4.206C16.588 3.689 13.461 3.806 12.006 3.806C10.551 3.806 7.42799 3.685 6.11199 4.206C5.24298 4.54905 4.55505 5.23699 4.21199 6.106C3.69499 7.418 3.81199 10.545 3.81199 12C3.81199 13.455 3.69099 16.578 4.21199 17.894C4.55535 18.7628 5.24318 19.4506 6.11199 19.794C7.42399 20.311 10.552 20.194 12.006 20.194C13.46 20.194 16.584 20.315 17.9 19.794C18.769 19.451 19.4569 18.763 19.8 17.894C20.319 16.582 20.2 13.455 20.2 12ZM17.13 12C17.13 14.8312 14.8352 17.1264 12.004 17.127C9.17282 17.1276 6.8771 14.8332 6.87599 12.002C6.87489 9.17083 9.16882 6.87466 12 6.87299C13.3608 6.87034 14.6666 7.40959 15.629 8.37161C16.5914 9.33363 17.1311 10.6392 17.129 12H17.13ZM15.336 12C15.336 10.1596 13.8444 8.66756 12.004 8.667C10.1636 8.66645 8.6711 10.1576 8.66999 11.998C8.66889 13.8384 10.1596 15.3313 12 15.333C13.8406 15.3319 15.3328 13.8406 15.335 12H15.336ZM17.336 7.85901C16.6733 7.85901 16.136 7.32174 16.136 6.659C16.136 5.99626 16.6733 5.459 17.336 5.459C17.9987 5.459 18.536 5.99626 18.536 6.659C18.5379 6.97731 18.4124 7.28317 18.1876 7.50853C17.9628 7.73389 17.6573 7.86008 17.339 7.85901H17.336Z"
+                        fill="currentColor"></path>
+                </svg></a>
+            <a class="social-link" href="https://twitter.com/NetflixAsia" target="_blank" aria-label="twitter"><svg
+                    width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="svg-icon svg-icon-twitter-logo ltr-0 e1mhci4z1" data-name="Twitter" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20.768 8.207C20.7914 11.5932 19.4565 14.8475 17.062 17.242C14.6675 19.6365 11.4132 20.9714 8.027 20.948C5.58923 20.9544 3.20152 20.2564 1.151 18.938C1.50998 18.9771 1.87091 18.9955 2.232 18.993C4.24768 18.9984 6.20639 18.3245 7.792 17.08C5.87438 17.0472 4.18971 15.799 3.6 13.974C3.87982 14.0187 4.16264 14.0421 4.446 14.044C4.84354 14.0428 5.23935 13.9914 5.624 13.891C3.53637 13.4667 2.0367 11.6303 2.038 9.5V9.441C2.65835 9.78765 3.3519 9.98262 4.062 10.01C2.08979 8.69332 1.48225 6.06954 2.675 4.02C4.94972 6.82016 8.30596 8.52336 11.909 8.706C11.8375 8.369 11.8009 8.02551 11.8 7.681C11.8014 5.84295 12.9248 4.19204 14.6341 3.51625C16.3434 2.84047 18.2921 3.2768 19.55 4.617C20.5522 4.42342 21.5131 4.05731 22.39 3.535C22.0556 4.56894 21.3555 5.44538 20.421 6C21.3102 5.89965 22.1795 5.66709 23 5.31C22.3866 6.20228 21.6273 6.98489 20.754 7.625C20.768 7.82 20.768 8.014 20.768 8.207Z"
+                        fill="currentColor"></path>
+                </svg></a>
+            <a class="social-link" href="https://www.youtube.com/channel/UCZoC-XeDO7HxbAdeCaRPPCw/videos"
+                target="_blank" aria-label="youtube"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-youtube-logo ltr-0 e1mhci4z1"
+                    data-name="Youtube" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M22.54 6.67C22.288 5.71873 21.549 4.97331 20.6 4.713C18.88 4.25 12 4.25 12 4.25C12 4.25 5.11997 4.25 3.39997 4.713C2.45094 4.97331 1.71199 5.71873 1.45997 6.67C1.14265 8.42869 0.988663 10.213 0.99997 12C0.988663 13.787 1.14265 15.5713 1.45997 17.33C1.71288 18.2825 2.45401 19.0282 3.40497 19.287C5.11997 19.75 12.005 19.75 12.005 19.75C12.005 19.75 18.885 19.75 20.6 19.287C21.549 19.0267 22.288 18.2813 22.54 17.33C22.8573 15.5713 23.0113 13.787 23 12C23.0113 10.213 22.8573 8.42869 22.54 6.67ZM9.74997 15.27V8.729L15.5 12L9.74997 15.27Z"
+                        fill="currentColor"></path>
+                </svg></a>
+        </div>
+        <ul class="member-footer-links">
+            <li class="member-footer-link-wrapper">
+                <a class="member-footer-link" href="/browse/audio-description"><span
+                        class="member-footer-link-content">คำอธิบายเสียง</span></a>
+            </li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link" href="https://help.netflix.com/"><span
+                        class="member-footer-link-content">ศูนย์ช่วยเหลือ</span></a></li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link" href="/redeem"><span
+                        class="member-footer-link-content">บัตรของขวัญ</span></a></li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link" href="https://media.netflix.com/"><span
+                        class="member-footer-link-content">ศูนย์สื่อมวลชน</span></a></li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link" href="http://ir.netflix.com/"><span
+                        class="member-footer-link-content">นักลงทุนสัมพันธ์</span></a></li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link" href="https://jobs.netflix.com/"><span
+                        class="member-footer-link-content">ตำแหน่งงาน</span></a></li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link"
+                    href="https://help.netflix.com/legal/termsofuse"><span
+                        class="member-footer-link-content">ข้อกำหนดการใช้งาน</span></a></li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link"
+                    href="https://help.netflix.com/legal/privacy"><span
+                        class="member-footer-link-content">ความเป็นส่วนตัว</span></a></li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link"
+                    href="https://help.netflix.com/legal/notices"><span
+                        class="member-footer-link-content">ประกาศแจ้งทางกฎหมาย</span></a></li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link" href="/Cookies"><span
+                        class="member-footer-link-content">การตั้งค่าคุกกี้</span></a></li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link"
+                    href="https://help.netflix.com/legal/corpinfo"><span
+                        class="member-footer-link-content">ข้อมูลบริษัท</span></a></li>
+            <li class="member-footer-link-wrapper"><a class="member-footer-link"
+                    href="https://help.netflix.com/contactus"><span
+                        class="member-footer-link-content">ติดต่อเรา</span></a></li>
+        </ul>
+        <div class="member-footer-service">
+            <button class="service-code">รหัสบริการ</button>
+        </div>
+        <div class="member-footer-copyright">
+            <span>© 1997-2023 Netflix, Inc.&lrm;</span>
+        </div>
+    </footer>
+        <script src="app.js"></script>
+        <script src="/path/to/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
